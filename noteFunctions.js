@@ -41,6 +41,10 @@ class noteFunctions {
         return this.getNotes().then(notes => notes.filter(note => note.id !== parseInt(id)))
         .then(filteredNotes => this.write(filteredNotes))
     }
+
+    saveNote(id) {
+        return this.addNote().then(note => this.note.filter(note => note.id ))
+    }
 }
 
-module.exports = new noteFunctions;
+module.exports = new noteFunctions();

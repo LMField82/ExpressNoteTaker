@@ -6,4 +6,5 @@ Please visit the link to use.
 https://whispering-plateau-75223.herokuapp.com/
 
 ## Image
-![EmployeeTracker](Note Taker App.png)
+![Employee Tracker](README.md
+Note Taker App.png)
